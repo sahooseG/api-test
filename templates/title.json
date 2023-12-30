@@ -1,0 +1,6 @@
+{
+    "title": "Welcome to the HAC API for retrieving student information from the academic year",
+    "options": ["averages", "assignments", "attendance"],
+    "instructions": "To access a student's account, please add their username and password, and what data you would like to retrieve to the link in the following format",
+    "format": "url.com//api/user=<username>&pass=<password>/option"
+}
