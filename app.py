@@ -21,7 +21,7 @@ login_data = {
 
 #Create the flask app
 app = Flask(__name__)
-@app.route("/api", methods = ['GET'])
+@app.route("/", methods = ['GET'])
 def main():
     start = time.time()
     result = {}
